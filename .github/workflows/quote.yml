@@ -1,0 +1,12 @@
+name: Update Quote Readme
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update Quote README
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set Quote
+        uses: siddharth2016/quote-readme@main
